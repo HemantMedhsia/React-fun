@@ -152,6 +152,8 @@ Overall, the project appears to be a personal React project that showcases vario
 Here are some code blocks that demonstrate the project's features:
 
 ``````ParticlesLoader.jsx
+// src/Pages/ParticlesLoader.jsx
+
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -184,6 +186,8 @@ export default ParticlesLoader;
 ``````
 
 ``````src/Pages/CurrencyConverter.jsx
+// src/Pages/CurrencyConverter.jsx
+
 import React, { useState, useEffect } from "react";
 import InputBox from "../Components/CurrencyConverter/InputBox";
 import useCurrencyInfo from "../Hooks/useCurrencyInfo";
