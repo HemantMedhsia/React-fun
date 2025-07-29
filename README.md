@@ -1,106 +1,60 @@
 # 🚀 React Mini Fun Projects
 
-Welcome to my **personal developer portfolio** built using **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. This website is a dynamic and interactive showcase of my skills, projects, education, and experience—all wrapped in a modern, visually engaging design.
+## Overview
+A React-based project showcasing various fun and interactive components, including particle effects, currency converters, password generators, and more.
 
-![Portfolio Preview](public/og-image.png)
+## Features
+* **Particle Effects**: Multiple particle configurations for visually appealing backgrounds
+* **Currency Converter**: A functional currency converter with up-to-date exchange rates
+* **Password Generator**: A secure password generator with customizable options
+* **Project Gallery**: A showcase of various projects with descriptions and navigation links
 
+## Technologies Used
+* **React**: JavaScript library for building user interfaces
+* **Vite**: Development server and build tool
+* **Tailwind CSS**: Utility-first CSS framework for styling
+* **ESLint**: JavaScript linter for code quality and consistency
 
----
-
-## 🔥 Features
-
-- ⚡ Fast and optimized using [Vite](https://vitejs.dev/)
-- ✨ Interactive UI with React Particles
-- 🎨 Responsive & modern design with Tailwind CSS
-- 💼 Password Generator, Currency Converter, etc mini projects.
-- 🎵 Background Animations with toggle
-
----
-
-## 🛠️ Tech Stack
-
-| Category       | Technologies                                                                 |
-| -------------- | ---------------------------------------------------------------------------- |
-| **Frontend**   | React, TypeScript, Vite, Tailwind CSS, Framer Motion                         |
-| **Routing**    | React Router DOM                                                             |
-| **Animation**  | reactparticles.js(React Particles)                                             |
-| **Deployment** | [Vercel](https://vercel.com)                                                 |
-| **Utilities**  | ESLint, Prettier, custom hooks, context API for global state                 |
-
----
-
-## 📁 Project Structure Overview
-
-<pre>
-  📁 Portfolio/
-├── 📄 .gitignore
-├── 📄 README.md
-├── 📄 index.html
-├── 📦 public/
-│   ├── 📄 HemantMedhsiaUpdatedResume.pdf
-│   ├── 🖼️ gProfile1.png
-│   └── 🖼️ og-image.png
-├── 📦 src/
-│   ├── 📄 App.tsx
-│   ├── 📄 App.css
-│   ├── 📁 apis/
-│   │   └── 📁 Contactme/
-│   │       └── 📄 Contactme.ts
-│   ├── 📁 assets/
-│   │   └── 📁 Images/
-│   │       ├── 🏢 Company/
-│   │       ├── 🎓 Education/
-│   │       ├── 🧰 HelperImgs/
-│   │       ├── 🔢 Numbers/
-│   │       ├── 💼 Projects/
-│   │       └── 🧱 stack/
-│   ├── 📁 components/
-│   │   ├── 👤 About/
-│   │   ├── 📞 Contactme/
-│   │   ├── 🎓 Education/
-│   │   ├── 💼 Experience/
-│   │   ├── 🌟 Github/
-│   │   ├── 🎵 Music/
-│   │   ├── 🧪 LazyImage/
-│   │   ├── 🌀 Marquee/
-│   │   ├── 🔁 ScrollToTop/
-│   │   ├── ✨ Testimonials/
-│   │   └── ...more UI sections
-│   ├── 📁 context/
-│   │   └── 🎵 MusicContext.tsx
-│   ├── 📁 Data/
-│   │   └── 📄 projectsData.ts
-│   ├── 📁 Layout/
-│   │   ├── 📄 Header.tsx
-│   │   └── 📄 Footer.tsx
-│   ├── 📁 pages/
-│   │   ├── 🏠 Home.tsx
-│   │   ├── 📄 About.tsx
-│   │   ├── 🧠 Education.tsx
-│   │   ├── 💼 Experience.tsx
-│   │   ├── 📨 Contactme.tsx
-│   │   ├── 🧾 Resume.tsx
-│   │   └── ❌ Error404.tsx
-│   ├── 📁 Routes/
-│   │   └── 📄 RoutesConfig.tsx
-│   ├── 📁 Ui/
-│   │   ├── 📁 GradientLine/
-│   │   └── 📁 InputFields/
-│   ├── 📄 main.tsx
-│   ├── 📄 index.css
-│   ├── 📁 types/
-│   │   └── 📄 hover-effect.d.ts
-│   └── 📄 vite-env.d.ts
-├── 📄 package.json
-├── 📄 package-lock.json
-├── 📄 tsconfig.json
-├── 📄 tsconfig.app.json
-├── 📄 tsconfig.node.json
-├── 📄 vite.config.ts
-├── 📄 eslint.config.js
-├── 📄 vercel.json
-</pre>
-
+## Project Structure
+```bash
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Components
+│   │   ├── BubbleDanceConfig.jsx
+│   │   ├── CurrencyConverter
+│   │   │   └── InputBox.jsx
+│   │   ├── FirefliesConfig.jsx
+│   │   ├── GalaxyConfig.jsx
+│   │   ├── ParticlesBackground.jsx
+│   │   ├── ParticlesConfig.jsx
+│   │   ├── ParticlesLoader.jsx
+│   │   ├── SnowfallConfig.jsx
+│   │   ├── StarryNightConfig.jsx
+│   │   ├── ThunderLightningConfig.jsx
+│   │   └── Toast.jsx
+│   ├── Hooks
+│   │   └── useCurrencyInfo.js
+│   ├── Pages
+│   │   ├── CurrencyConverter.jsx
+│   │   ├── PasswordGenerator.jsx
+│   │   └── ProjectGallery.jsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── index.css
+│   └── main.jsx
+├── tailwind.config.js
+└── vite.config.js
+```
 
 ## High-Level Summary
 The repository appears to be a React-based project that showcases various interactive components and features. The project seems to be a personal endeavor, possibly a portfolio or a playground for experimenting with different React concepts and libraries.
@@ -234,8 +188,8 @@ export default CurrencyConverter;
 ``````
 ### Installation
 
-. Clone the repository using Git: `git clone https://github.com/HemantMedhsia/Portfolio2025.git`
-. Navigate to the repository directory: `cd Portfolio`
+. Clone the repository using Git: `git clone https://github.com/HemantMedhsia/React-fun.git`
+. Navigate to the repository directory: `cd React-fun`
 . Install the dependencies using npm or yarn: `npm install` or `yarn install`
 
 ### Running the Application
@@ -249,10 +203,10 @@ The application should now be running and accessible in your web browser.
 
 `````bash
 # 1️⃣ Clone the repository
-git clone https://github.com/HemantMedhsia/Portfolio2025.git
+git clone https://github.com/HemantMedhsia/React-fun.git
 
 # 2️⃣ Navigate to the directory
-cd Portfolio
+cd React-fun
 
 # 3️⃣ Install the dependencies
 npm install    # or yarn install
@@ -270,9 +224,9 @@ npm run dev    # or yarn dev
 If you have any questions, feedback, or need support, feel free to reach out:
 
 - 📧 Email: [hemantmedhsia@gmail.com](mailto:hemantmedhsia@gmail.com)
-- 🐞 Bug Reports: [Create an issue](https://github.com/HemantMedhsia/Portfolio2025/issues)
-- ⭐ Suggestions & Features: [Start a discussion](https://github.com/HemantMedhsia/Portfolio2025/discussions)
-- 🤝 Want to Contribute? [Fork the repo](https://github.com/HemantMedhsia/Portfolio2025/fork) and submit a PR!
+- 🐞 Bug Reports: [Create an issue](https://github.com/HemantMedhsia/React-fun/issues)
+- ⭐ Suggestions & Features: [Start a discussion](https://github.com/HemantMedhsia/React-fun/discussions)
+- 🤝 Want to Contribute? [Fork the repo](https://github.com/HemantMedhsia/React-fun/fork) and submit a PR!
 
 ---
 
